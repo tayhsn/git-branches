@@ -1,9 +1,9 @@
-<div align="center"> GIT Branchs  :memo:  </div>
+# <div align="center"> GIT Branchs  :memo:  </div>
 <div align="center"> <img alt="GitHub forks" src="https://img.shields.io/github/forks/tayhsn/git-branchs?logoColor=black&style=social"> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tayhsn/git-branchs?logoColor=green&style=social"> </div>
 
-## Comandos básicos para começar a utilizar ramificações (branchs) no seu versionamento :octocat:
+### Comandos básicos para começar a utilizar ramificações (branchs) no seu versionamento :octocat:
 
-### Para facilitar, faça um FORK para copiar o repositório ou deixe uma STAR para salva-ló. ✨
+#### Para facilitar, faça um FORK para copiar o repositório ou deixe uma STAR para salva-ló. ✨
 
 <hr>
 
@@ -37,4 +37,4 @@ OU
 
 * Para alternar entre as branch pode utilizar tanto SWITCH quanto CHECKOUT 
 
-Documentação: https://git-scm.com/docs/git-branch
+#### Documentação: https://git-scm.com/docs/git-branch
