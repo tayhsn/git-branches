@@ -41,7 +41,7 @@
 
 OU 
 
-* Cria uma nova branch e já faz o switch pra ela ao mesmo tempo
+* Cria uma nova branch e muda pra ela ao mesmo tempo
 
 ``` GIT CHECKOUT -B <nome-branch> ```
 
@@ -51,13 +51,15 @@ OU
 
 ``` GIT PUSH -U ORIGIN <nomeBranch> ```
 
-* Se a branch ja está foi versionada, basta 
+* Se a branch ja foi versionada, basta 
 
 ``` GIT PUSH ```
 
 <hr>
 
-* Fazendo o merge de outra branch para a branch atual
+* Fazendo o merge de outra branch para a branch atual (ou seja, juntar a branch que você terminou de trabalhar com a branch principal)
+
+``` GIT CHECKOUT MAIN ``` { garantindo que está indo para a branch principal que vai receber as alterações } 
 
 ``` GIT MERGE <outra-branch> ```
 
@@ -75,4 +77,4 @@ OU
 
 * Para alternar entre as branch pode utilizar tanto SWITCH quanto CHECKOUT 
 
-#### Documentação: https://git-scm.com/docs/git-branch
+Para mais comandos: https://comandosgit.github.io/
