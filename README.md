@@ -1,15 +1,35 @@
-# <div align="center"> GIT Branchs  :memo:  </div>
+# <div align="center"> GIT Branches  :memo:  </div>
 <div align="center"> <img alt="GitHub forks" src="https://img.shields.io/github/forks/tayhsn/git-branchs?logoColor=black&style=social"> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tayhsn/git-branchs?logoColor=green&style=social"> </div>
 
-### Comandos básicos para começar a utilizar ramificações (branchs) no seu versionamento :octocat:
+### Comandos de ramificação (branches) no GIT :octocat:
 
-#### Para facilitar, faça um FORK para copiar o repositório ou deixe uma STAR para salva-ló. ✨
+ Para facilitar, faça um FORK para copiar o repositório ou deixe uma STAR para salva-ló. ✨
 
 <hr>
 
-* Listar todas as branchs criadas
+* Para ver em qual branch você esta no momento
+
+``` GIT STATUS ```
+
+* Para trazer todas as branches do repositorio remoto
+
+```GIT PULL ```
+
+<hr>
+
+* Listar todas as branchs locais
 
 ``` GIT BRANCH ```
+
+* Listar todas as branchs remotas
+
+``` GIT BRANCH -R```
+
+* Listar todas as branchs locais e remotas
+
+``` GIT BRANCH -A```
+
+<hr>
 
 * Cria uma nova branch
 
@@ -25,13 +45,31 @@ OU
 
 ``` GIT CHECKOUT -B <nome-branch> ```
 
+<hr>
+
+* Empurrar seus arquivos para a branch local
+
+``` GIT PUSH -U ORIGIN <nomeBranch> ```
+
+* Se a branch ja está foi versionada, basta 
+
+``` GIT PUSH ```
+
+<hr>
+
 * Fazendo o merge de outra branch para a branch atual
 
 ``` GIT MERGE <outra-branch> ```
 
-* Deletando a branch
+<hr>
+
+* Deletando uma branch local
 
 ``` GIT BRANCH -D <nome-branch> ```
+
+* Deletando uma branch remota
+
+``` GIT PUSH ORIGIN -DELETE <nome-branch> ```
 
 <hr>
 
