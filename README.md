@@ -67,6 +67,7 @@ Essa é uma forma de ganhar produtividade no desenvolvimento de projetos maiores
   ```git branch -m novoNome```
 
 <hr>
+
 ### Juntando as branches
 
 * Fazendo o MERGE entre as branch da funcionalidade e a branch principal
@@ -78,6 +79,7 @@ Essa é uma forma de ganhar produtividade no desenvolvimento de projetos maiores
   > Para confirmar em que branch está use o comando ```git branch```
 
 <hr>
+
 ### Deletando uma branch
 
 * Deletando uma branch local
@@ -89,6 +91,7 @@ Essa é uma forma de ganhar produtividade no desenvolvimento de projetos maiores
 ``` git push origin -delete Branch ```
 
 <hr>
+
 Documentação oficial: https://git-scm.com/docs
 
 Git Command Explorer: https://gitexplorer.com/
