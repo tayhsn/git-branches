@@ -1,80 +1,94 @@
-# <div align="center"> GIT Branches  :memo:  </div>
+# <div align="center"> Git Branches  :memo:  </div>
 <div align="center"> <img alt="GitHub forks" src="https://img.shields.io/github/forks/tayhsn/git-branchs?logoColor=black&style=social"> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tayhsn/git-branchs?logoColor=green&style=social"> </div>
 
-### Comandos de ramificação (branches) no GIT :octocat:
+### Comandos para utilizar branches no Git :octocat:
 
- Para facilitar, faça um FORK para copiar o repositório ou deixe uma STAR para salva-ló. ✨
-
-<hr>
-
-* Para ver em qual branch você esta no momento
-
-``` GIT STATUS ```
-
-* Para trazer todas as branches do repositorio remoto
-
-```GIT PULL ```
+Você pode copiar esse repositório para o seu perfil com FORK ou salvá-lo com uma STAR. ✨
 
 <hr>
 
-* Listar todas as branchs locais
+Branches são ramificações, ou seja, extensões da main em que você pode trabalhar em novas funcionalidades sem impactar a branch principal. Uma vez que você finaliza a funcionalidade e garante sua eficiência, é só juntar as duas branches.
 
-``` GIT BRANCH ```
-
-* Listar todas as branchs remotas
-
-``` GIT BRANCH -R```
-
-* Listar todas as branchs locais e remotas
-
-``` GIT BRANCH -A```
+Essa é uma forma de ganhar produtividade no desenvolvimento de projetos maiores, e essencial em projetos colaborativos.
 
 <hr>
+
+### Criando uma branch
 
 * Cria uma nova branch
 
-``` GIT BRANCH <nome-branch>```
+  ``` git branch novaBranch```
 
 * Muda para a branch criada
 
-``` GIT SWITCH <nome-branch> ```
+  ``` git switch novaBranch ``` || ```git checkout novaBranch```
 
-OU 
+  OU 
 
-* Cria uma nova branch e muda pra ela ao mesmo tempo
+* Cria a branch e move pra ela ao mesmo tempo
 
-``` GIT CHECKOUT -B <nome-branch> ```
-
-<hr>
-
-* Empurrar seus arquivos para a branch local
-
-``` GIT PUSH -U ORIGIN <nomeBranch> ```
-
-* Se a branch ja foi versionada, basta 
-
-``` GIT PUSH ```
+  ```git checkout -b novaBranch```
 
 <hr>
 
-* Fazendo o merge de outra branch para a branch atual (ou seja, juntar a branch que você terminou de trabalhar com a branch principal)
+### Listando as branches
 
-``` GIT CHECKOUT MAIN ``` { garantindo que está indo para a branch principal que vai receber as alterações } 
 
-``` GIT MERGE <outra-branch> ```
+* Lista as branches locais
+
+  ``` git branch ```
+
+* Lista as branches remotas
+
+  ``` 	git branch -r```
+
+* Lista todas as branches locais e remotas
+
+  ``` 	git branch -a```
 
 <hr>
+
+### Trabalhando na branch
+
+* Trazendo as alterações do repositório remoto para o local (incluindo outras branches)
+
+  ```git pull```
+
+* Commita na branch
+
+  ```git commit -m "mensagem"```
+
+* Empurra as alterações
+
+  ``` git push origin Branch ```
+
+* Também é possivel renomear a branch 
+
+  ```git branch -m novoNome```
+
+<hr>
+### Juntando as branches
+
+* Fazendo o MERGE entre as branch da funcionalidade e a branch principal
+
+  ``` git merge outraBranch ```
+
+  > Esse comando junta outra branch na que você está. Muito cuidado, pois você precisa estar na branch que deseja trazer as alterações.
+  >
+  > Para confirmar em que branch está use o comando ```git branch```
+
+<hr>
+### Deletando uma branch
 
 * Deletando uma branch local
 
-``` GIT BRANCH -D <nome-branch> ```
+  ``` git branch -d Branch ```
 
 * Deletando uma branch remota
 
-``` GIT PUSH ORIGIN -DELETE <nome-branch> ```
+``` git push origin -delete Branch ```
 
 <hr>
+Documentação oficial: https://git-scm.com/docs
 
-* Para alternar entre as branch pode utilizar tanto SWITCH quanto CHECKOUT 
-
-Para mais comandos: https://comandosgit.github.io/
+Git Command Explorer: https://gitexplorer.com/
